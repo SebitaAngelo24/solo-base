@@ -1,0 +1,11 @@
+SELECT nombre m, nombre_habilidad h
+FROM Habilidades h JOIN Habilidades_x_Mascota hm ON h.id = hm.id_habilidad
+JOIN Mascotas m ON hm.id_mascota = m.id
+WHERE nombre_habilidad = 'saludar' OR nombre_habilidad = 'saltar';
+
+cd /ruta/a/tu/proyecto        # Accede a tu proyecto
+git init                      # Si es un repositorio nuevo
+git remote add origin <URL_DEL_REPOSITORIO>  # Conecta a GitLab
+git add .                     # Agrega todos los archivos al área de preparación
+git commit -m "Mensaje del commit"  # Realiza un commit
+git push -u origin master      # Subir cambios a GitLab

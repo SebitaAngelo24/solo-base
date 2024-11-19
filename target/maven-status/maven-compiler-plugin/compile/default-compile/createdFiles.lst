@@ -1,0 +1,8 @@
+Main.class
+entities\HistoriaMascota.class
+exceptions\MascotaMuertaException.class
+services\HabilidadesService.class
+repositories\MascotaRepository.class
+services\MascotasService.class
+entities\Habilidad.class
+entities\Mascota.class
